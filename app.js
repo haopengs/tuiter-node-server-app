@@ -9,6 +9,7 @@ const CONNECTION_STRING = process.env.DB_CONNECTION_STRING
     || 'mongodb://127.0.0.1:27017/tuiter'
 mongoose.connect(CONNECTION_STRING);
 // mongoose.connect('mongodb://127.0.0.1:27017/tuiter')
+// mongoose.connect('mongodb+srv://mcdms333:DUv4PDO0JiNWXoiI@cluster0.hq7cdxr.mongodb.net/tuiter?retryWrites=true&w=majority')
 
 const app = express()
 
